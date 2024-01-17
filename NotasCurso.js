@@ -1,7 +1,7 @@
 /** 01-Por qué usar typescript?
  * *Es muy usado por la comunidad y muy recomendado además
  * *Su tipado ayuda a prevenir errores
- * *Muchas tecnologías están escritas en TS 
+ * *Muchas tecnologías están escritas en TS
  * *Puede prevenir hasta un 15% de bugs
  */
 /** 02-TypeScript vs. JavaScript
@@ -13,4 +13,10 @@
  * *Instalamos ts
  * *Creamos .gitignore
  * *Crear el editorconfig
+ */
+
+/** 04-Atrapando bugs
+ * *Creamos un archivo .js para comparar
+ * *Luego activamos el ts-check para ver los errores
+ * *Al habilitar el detector de código de ts podemos apreciar muchos errores sutíles que con js no nos daríamos cuenta hasta el momento de ejecución del código
  */
