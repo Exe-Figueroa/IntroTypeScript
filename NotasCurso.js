@@ -79,3 +79,9 @@
  * *La idea es aumentar la flexibilidad respecto a los tipos. Por ejemplo en un array yo quiero que vengan distintos tipos de valores como strings, numbers o booleans
  * *Al realizar un condicional en ts lo que hace es que dependiendo del tipo de dato que tenga la variable es cómo va a ser tratado a partir de ese punto dicho valor
  */
+
+/** 15-Alias y tipos literales
+ * *Creamos un type con un nombre acorde a la variable que vamos a tipar y lo igualamos con los tipos que le correspondan al mismo.
+ * *Ej=> type Data = string[] | number[];
+ * *Literal types => después de los dos puntos que definen los tipos se le pueden colocar los posibles valores, y en caso de que a la variable se le asigne un valor distinto a los indicados te va a saltar un error
+ */
