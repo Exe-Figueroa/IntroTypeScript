@@ -40,3 +40,9 @@
 /** 07-Qué es el tipado en TypeScript
  * *La sintaxis es la siguiente=> const nameVar: type = value; (declaracion, tipo y valor)
  */
+
+/** 08-Tipos inferidos
+ * *Al momento de declarar e inicializar variables typescript infiere y te dice de qué tipo es esa variable en base al valor asignado
+ * *Al usar ts el código tiene mejor integración con vsc y al colocar un punto en algún elemento te devuelve automáticamente los métodos del mismo
+ * *Al colocar las mismas variables en distintos archivos, si estas están en el scope global, van a chocar
+ */
