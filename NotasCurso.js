@@ -85,3 +85,7 @@
  * *Ej=> type Data = string[] | number[];
  * *Literal types => después de los dos puntos que definen los tipos se le pueden colocar los posibles valores, y en caso de que a la variable se le asigne un valor distinto a los indicados te va a saltar un error
  */
+
+/** 16-Null y undefined
+ * *Se pueden utilizar nameVar?.method() || 'Other option' para que en caso de que el método no exista en dicha variable se la trate como algo distinto y poder retornar el otro valor que es un valor por defecto
+ */
