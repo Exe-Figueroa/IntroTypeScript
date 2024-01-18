@@ -26,5 +26,13 @@
  * *Al ejecutar el comando npx tsc src/01-hello.ts ts transforma el código ts a js y crea un archivo igual con el mismo nombre pero transformado
  * *Al comando se le puede pasar un --target con la versión de ES que deseemos por ejemplo ES6
  * *Se le puede agregar otro flag => --outDir dist/ <== para que nos mande los archivos a la carpeta especificada
- * *Se le pueden en viar expresiones regulares para que haga lo mismo con diferentes archivos con la misma extensión 
+ * *Se le pueden en viar expresiones regulares para que haga lo mismo con diferentes archivos con la misma extensión
+ */
+
+/** 06-Veamos el TSConfig.json
+ * *Es un archivo creado con el fin de ahorrarnos trabajo a la hora de transpilar de ts a js
+ * *npx tsc --init => Crea el TSConfig
+ * *Se puede configurar el outDir
+ * *Al configurar el archivo podemos ejecutar el comando sin tantos flags
+ * *Al colocar el flag --watch observa constantemente los archivo y transpila en tiempo real
  */
