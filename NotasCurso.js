@@ -56,5 +56,13 @@
  * *TS verifica que los valores de retorno sean del mismo tipo que el que debería ir en la fn
  */
 /** 11-Strings
- * *
+ * *Lo mismo que lo anterior básicamente
+ */
+/** 12-Arrays
+ * *En los arrays se definen así los tipos
+ * *number[] => para un array de numeros
+ * *string[] => para un array de strings
+ * *{name: string, price: number}[] => para un array de objetos con distintas propiedades de distintos tipos
+ * *(strin | |number)[] => para arrays que aceptan strings o números
+ * *Al utilizar los métodos de los arrays el motor de inferencia hace que no alteres el tipo de valores que están dentro del array
  */
