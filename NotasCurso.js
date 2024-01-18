@@ -98,3 +98,8 @@
  * *Se pueden colocar que algún parámetro no sea necesariamente incluido al momento de llamar la fn
  *  ? Esto se hace colocando un signo de pregunta entre el nombre asignado al parámetro y los dos puntos para colocar el tipo
  */
+
+/** 18-Retorno de funciones
+ * *Se le puede colocar el tipo de dato que retorna colocandole dos puntos despues del paréntesis de los parámetros especificando el valor que retorna
+ * *Las funciones que no retornan nada son de tipo void. Se le puede especificar que sea de ese tipo o simplemente se puede inferir de manera automática con ese tipo
+ */
