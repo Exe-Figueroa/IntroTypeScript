@@ -89,3 +89,12 @@
 /** 16-Null y undefined
  * *Se pueden utilizar nameVar?.method() || 'Other option' para que en caso de que el método no exista en dicha variable se la trate como algo distinto y poder retornar el otro valor que es un valor por defecto
  */
+
+/** 17-Funciones
+ * *Date es el único que no es mala práctica
+ * *Luego de definir los tipos en los parámetros nos devuelve errores si al momento de ejecutar la fn nos faltan argumentos y si estos argumentos son de tipo incorrecto también nos devuelve error
+ * *También tipa el retorno de manera automática y te muestra los métodos y propiedades del objeto en caso de colocarle un . a la variable que lo contiene
+ * *También se puede trabajar con arrow functions
+ * *Se pueden colocar que algún parámetro no sea necesariamente incluido al momento de llamar la fn
+ *  ? Esto se hace colocando un signo de pregunta entre el nombre asignado al parámetro y los dos puntos para colocar el tipo
+ */
