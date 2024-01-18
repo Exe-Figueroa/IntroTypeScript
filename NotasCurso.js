@@ -66,3 +66,11 @@
  * *(strin | |number)[] => para arrays que aceptan strings o números
  * *Al utilizar los métodos de los arrays el motor de inferencia hace que no alteres el tipo de valores que están dentro del array
  */
+
+/** 13-Any
+ * *Any es un tipo que tiene ts que te permite hacer que una variable acepte cualquier tipo
+ * *Se recomienda que no sea utilizado
+ * *Sirve para cuando se están migrando proyectos y los desarrolladores de este no están acostumbrados a ts
+ * *Se puede hacer algo para que a pesar de ser any que funcione como un string o cualquier otro tipo
+ * *Eso sirve para cuando las librerías no tipan los datos que proveen. Vos podés decirle a ts que trate a ese valor como un string, number o el tipo que desees
+ */
