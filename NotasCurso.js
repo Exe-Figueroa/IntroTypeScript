@@ -130,3 +130,10 @@
  * *Al momento de importar la librería si VSC no nos alerta de nada es porque esta tiene soporte en TS
  * *Al hacer hover sobre las funciones de la libreria nos da como una documentación en tiempo real de los valores que recibe la fn
  */
+
+/** 23-Usando librerías que NO soportan TypeScript
+ * *Instalar lodash, que no tiene soporte para ts
+ * *Al momento de importar la librería VSC nos va a alertar que no encontró un sistema de tipos para lodash
+ * *VSC te recomienda instalar un sistema de tipos para esa librería. Te da el comando o simplemente ejecuta la accion de instalarlas
+ * *Después de instalar los tipos de datos nos provee los métodos y propiedades de la librería y no nos retorna error todo el tiempo
+ */
