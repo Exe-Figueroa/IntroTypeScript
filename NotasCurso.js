@@ -51,3 +51,7 @@
  * *En caso de querer declarar una variable y no inicializarla en ese momento hay que colocarle el tipo ya que no es inferido el tipo en esa variable
  * *Es mala práctica utilizar Number en vez de number
  */
+
+/** 10-Booleans
+ * *TS verifica que los valores de retorno sean del mismo tipo que el que debería ir en la fn
+ */
