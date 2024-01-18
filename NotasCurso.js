@@ -109,3 +109,8 @@
  *  ?(data: { name: string, password: string })
  * *A los atributos que colocamos en notación de objeto en los parámetros de un array también se le pueden poner para que sean opcionales el signo de interrogación
  */
+
+/** 20-Objetos como tipos
+ * *Se pueden crear tipos para los productos entonces al enviar los valores a una función solo se le pasa el tipo de productos y listo
+ * *También se le puede pasar este tipo al array de productos para que no sea any
+ */
