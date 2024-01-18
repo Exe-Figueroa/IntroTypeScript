@@ -46,3 +46,8 @@
  * *Al usar ts el código tiene mejor integración con vsc y al colocar un punto en algún elemento te devuelve automáticamente los métodos del mismo
  * *Al colocar las mismas variables en distintos archivos, si estas están en el scope global, van a chocar
  */
+
+/** 09-Numers
+ * *En caso de querer declarar una variable y no inicializarla en ese momento hay que colocarle el tipo ya que no es inferido el tipo en esa variable
+ * *Es mala práctica utilizar Number en vez de number
+ */
