@@ -1,16 +1,6 @@
+import { addProduct, products } from "./products/product.service";
+
 (() => {
-  type Sizes = 'L' | 'M' | 'XL' | 'XXL';
-  type Product = {
-    title: string,
-    stock: number,
-    size?: Sizes
-  }
-
-  const products: Product[] = [];
-  const addProduct = (data: Product) => {
-    products.push(data);
-  }
-
   addProduct({
     title: 'P1',
     stock: 200,

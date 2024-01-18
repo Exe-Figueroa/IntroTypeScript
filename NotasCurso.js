@@ -114,3 +114,11 @@
  * *Se pueden crear tipos para los productos entonces al enviar los valores a una función solo se le pasa el tipo de productos y listo
  * *También se le puede pasar este tipo al array de productos para que no sea any
  */
+
+/** 21-Módulos: import y export
+ * *Todo lo que tenga que ver con el modelado de datos lo colocamos en model
+ * *Los exportamos y lo importamos en donde lo necesitemos
+ * *Lo mismo con las funciones, solo que las movemos a los servicios
+ * *Los objetos como tipo facilitan el hecho de cambiar nombres de propiedades, ya que al cambiarlos nos salta error automáticamente en los archivos que se están llamando de manera incorrecta
+ * *En JS sería muy complicado debugear eso
+ */
