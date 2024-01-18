@@ -74,3 +74,8 @@
  * *Se puede hacer algo para que a pesar de ser any que funcione como un string o cualquier otro tipo
  * *Eso sirve para cuando las librerías no tipan los datos que proveen. Vos podés decirle a ts que trate a ese valor como un string, number o el tipo que desees
  */
+
+/** 14-Union Types
+ * *La idea es aumentar la flexibilidad respecto a los tipos. Por ejemplo en un array yo quiero que vengan distintos tipos de valores como strings, numbers o booleans
+ * *Al realizar un condicional en ts lo que hace es que dependiendo del tipo de dato que tenga la variable es cómo va a ser tratado a partir de ese punto dicho valor
+ */
