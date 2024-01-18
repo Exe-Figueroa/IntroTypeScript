@@ -55,3 +55,6 @@
 /** 10-Booleans
  * *TS verifica que los valores de retorno sean del mismo tipo que el que debería ir en la fn
  */
+/** 11-Strings
+ * *
+ */
