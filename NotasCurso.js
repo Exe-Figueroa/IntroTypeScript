@@ -36,3 +36,7 @@
  * *Al configurar el archivo podemos ejecutar el comando sin tantos flags
  * *Al colocar el flag --watch observa constantemente los archivo y transpila en tiempo real
  */
+
+/** 07-Qué es el tipado en TypeScript
+ * *La sintaxis es la siguiente=> const nameVar: type = value; (declaracion, tipo y valor)
+ */
