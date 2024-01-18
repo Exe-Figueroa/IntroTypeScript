@@ -103,3 +103,9 @@
  * *Se le puede colocar el tipo de dato que retorna colocandole dos puntos despues del paréntesis de los parámetros especificando el valor que retorna
  * *Las funciones que no retornan nada son de tipo void. Se le puede especificar que sea de ese tipo o simplemente se puede inferir de manera automática con ese tipo
  */
+
+/** 19-Objetos en funciones
+ * *En caso de que la fn reciba un objeto lo que se hace es colocarle un nombre al parámetro y definirle por tipo el objeto que viene de la siguiente manera:
+ *  ?(data: { name: string, password: string })
+ * *A los atributos que colocamos en notación de objeto en los parámetros de un array también se le pueden poner para que sean opcionales el signo de interrogación
+ */
