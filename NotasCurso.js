@@ -122,3 +122,11 @@
  * *Los objetos como tipo facilitan el hecho de cambiar nombres de propiedades, ya que al cambiarlos nos salta error automáticamente en los archivos que se están llamando de manera incorrecta
  * *En JS sería muy complicado debugear eso
  */
+
+/** 22-Usando librerías que soportan TypeScript
+ * *date fn => manipulación de fechas en js
+ * *Para saber si está creada con ts podemos checkear en el repo si tiene el TSConfig
+ * *VSCode también nos alertará si esta tiene ts
+ * *Al momento de importar la librería si VSC no nos alerta de nada es porque esta tiene soporte en TS
+ * *Al hacer hover sobre las funciones de la libreria nos da como una documentación en tiempo real de los valores que recibe la fn
+ */
